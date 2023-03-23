@@ -1,9 +1,10 @@
+import history from 'util/history';
 import './styles.css';
 
 const Form = () => {
 
   const handleCancel = () => {
-    // to do
+    history.push('/admin/employees');
   };
 
   return (
